@@ -1,15 +1,22 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import ReactDOM from "react-dom";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import './styles/index.scss';
+//import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Landing from "./view/landing";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <BrowserRouter>
+        <Switch>
+        <Route path="/landing" component={Landing} />
+        <Redirect from="/" to="/landing" />
+        </Switch>
+    </BrowserRouter>,
+    document.getElementById("root")
 );
+  
+//ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

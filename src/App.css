@@ -36,3 +36,152 @@
     transform: rotate(360deg);
   }
 }
+#content-middle {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#content-middle::before {
+  top: 0;
+  height: 100%;
+  background: #f4f4f6;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 75% 100%, 0 100%, 0% 50%);
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 75% 100%, 0 100%, 0% 50%);
+  z-index: -1;
+}
+#content-middle::before, #content::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+.hexWrapper {
+  text-align: center;
+  margin: 0px;
+  position: relative;
+  display: inline-block;
+  width: 150px; /*Change this to resize*/
+  height: 150px; /*Change this to resize*/
+  min-width: 150px;
+  min-height: 150px;
+  float:left;
+}           
+.hexagon {
+  height: calc(100%/1.732050807);
+  width: 100%;
+  background-color: #ffffff;
+  display:inline-block;
+}
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  background-color: inherit;
+  height: inherit;
+  width: inherit;
+  left: -1px; right: -1px; top: 0; bottom: 0;
+}
+.hexagon:before {
+  transform: rotateZ(60deg);
+}
+.hexagon:after {
+  transform: rotateZ(120deg);
+}
+.hexagon,
+.hexagon:before,
+.hexagon:after {
+  box-sizing: content-box;
+  border: solid 2px #4850be;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  z-index: -1; /*We need to force the z-index so we can put some text over*/
+}
+#container{
+  padding-top: 60px;
+  width:100%;
+  min-width:910px; /* so the page doesn't get too small. This should be done better with media queries*/
+}
+.row-hexagon{
+  clear:both; /*to reset all the configs*/
+  float:left;
+  display: flex; /* using some flex to aline to center */
+  justify-content: center;
+  overflow:hidden; /*this is for after, when we add more hex's*/
+  padding-top:145px; /* To take care of the top part of the hex, needs changing if we change the size on the wrapper*/
+  position:relative; 
+}
+.fullWidth{
+  width: 100%;
+}
+.icon-box{
+  width: 75px;
+  height:40px;
+  background-color: #AED6F2;
+  position: absolute;
+  top:-25px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 10;
+}
+.icon-box:before,
+.icon-box:after{
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #AED6F2;
+  z-index:1;
+}
+.icon-box:before {
+  top: -25px;
+}
+.icon-box:after {
+  bottom: -25px;
+}
+.icon-box i,
+.icon-box img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -20px;
+  margin: 0 auto;
+  z-index: 20;
+  font-size: 90px;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  color: #fff;
+}
+.text {
+  z-index: 10;
+  position: relative;
+  font-size: 17px;
+  text-align: center;
+  padding: 20px;
+}
+.text h3 {
+  font-size: 1em;
+  color:#42c9c0;
+  font-weight:700;
+}
+.text h4{
+  font-size: 0.8em;
+  color:#42c9c0;
+  font-weight:300;
+}
+.text p{
+  font-size: 0.5em;
+  font-weight:300;
+  font-style:italic;
+}
