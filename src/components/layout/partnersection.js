@@ -2,7 +2,7 @@ import React from 'react';
 
 function PartnerSection(){
     return(
-        <section className="pt-20 pb-48">
+        <section className="pt-20 pb-8">
             <div className="max-w-screen-xl container mx-auto px-4">
                 <div className="-mx-5 flex flex-wrap">
                     <div className="w-full flex flex-col p-5 sm:w-1/2 lg:w-1/4">

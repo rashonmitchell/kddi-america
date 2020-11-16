@@ -7,7 +7,7 @@ function Table() {
                 Committed to Your Success
             </h2>
             
-            <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 lg:gap-8 m-5">
+            {/* <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 lg:gap-8 m-5">
                 <div className="p-4 col-span-1 lg:col-span-2">
                     <h3 className="text-2xl mb-2 text-kddiOrange">Simplicity</h3>
                     <p className="text-lg leading-7 text-kddiGray">
@@ -20,9 +20,9 @@ function Table() {
                 <div className="p-4 text-center">
                     <div className="rounded-full orange-dot"></div>
                 </div>
-            </div>
+            </div> */}
             
-            {/* <table className="table-auto">
+            <table className="table-auto">
                 <thead>
                     <tr>
                         <th className="px-4 py-4"></th>
@@ -121,7 +121,7 @@ function Table() {
                         </td>
                     </tr>
                 </tbody>
-            </table> */}
+            </table>
         </div>
     )
 }

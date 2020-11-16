@@ -2,6 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+.cta-background {
+  background-image: url('../assets/img/graphic@2x_template.png');
+}
+
 .partner-rectangle {
   border: 8px solid #AED6F2;
   background-color: #AED6F2;
@@ -290,4 +294,10 @@
 .headerBody .navbar .nav-pills .nav-item .langSelect .btn-primary:active,
 .headerBody .navbar .nav-pills .nav-item .langSelect .btn-primary:focus {
   outline: none
+}
+
+.outline-something {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
 }
