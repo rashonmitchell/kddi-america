@@ -20,6 +20,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "build": "react-scripts build",
     "build:tailwind": "postcss src/styles/tailwind.scss -o src/styles/index.scss",
     "watch:tailwind": "chokidar 'src/styles/tailwind.scss' 'src/styles/tailwind.scss' --ignore src/styles/tailwind.scss -c 'npm run build:tailwind'",
     "start": "npm-run-all build:tailwind --parallel watch:tailwind start:react",
