@@ -33,18 +33,18 @@ export default function Modal() {
                     </h3>
                     <form className="px-8 pt-6 pb-8 mb-4">
                         <div className="mb-4">
-                            <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Name:" />
+                            <input className="bg-grey-100 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Name:" />
                         </div>
                         <div className="mb-6">
-                            <input className="w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="company" type="text" placeholder="Company:" />
-                        </div>
-
-                        <div className="mb-6">
-                            <input className="appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="business-email" type="text" placeholder="Business email:" />
+                            <input className="bg-grey-100 w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="company" type="text" placeholder="Company:" />
                         </div>
 
                         <div className="mb-6">
-                            <input className="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="business-phone" type="text" placeholder="Business phone:" />
+                            <input className="bg-grey-100 w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="business-email" type="text" placeholder="Business email:" />
+                        </div>
+
+                        <div className="mb-6">
+                            <input className="bg-grey-100  py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="business-phone" type="text" placeholder="Business phone:" />
                         </div>
                         
                     </form>
