@@ -84,7 +84,7 @@ function Table() {
                             </section>
                         </div>
                         <div className='col'>
-                            <span className='dot'></span>
+                            <span className=''></span>
                         </div>
                         <div className='col'>
                             <span className='dot'></span>
@@ -104,7 +104,7 @@ function Table() {
                             </section>
                         </div>
                         <div className='col'>
-                            <span className='dot'></span>
+                            <span className=''></span>
                         </div>
                         <div className='col'>
                             <span className='dot'></span>
@@ -115,8 +115,8 @@ function Table() {
                         <h3 className="text-2xl px-4 pt-4 text-kddiOrange">Pre Sales Support</h3>
                         <div className='col px-4 py-4'>
                             <p className='text-lg leading-7 text-kddiGray'>
-                                Work directly with your KDDI partner manager to develop your
-                                business strategy and plan opportunities.
+                                Accelerate the sales cycle with access to demo licenses, 
+                                evaluation software, POC environments, and trial hardware.
                             </p>
                             <section className='tony-span-table'>
                                 <p className="px-4 py-4 text-xl mb-4 text-cta text-center">KDDI America Advisor</p>
@@ -124,7 +124,7 @@ function Table() {
                             </section>
                         </div>
                         <div className='col'>
-                            <span className='dot'></span>
+                            <span className=''></span>
                         </div>
                         <div className='col'>
                             <span className='dot'></span>

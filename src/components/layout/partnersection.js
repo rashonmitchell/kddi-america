@@ -48,6 +48,7 @@ function PartnerSection(){
                             </a>
                         </div>
                     </div>
+                    
                 
                 <div className="w-full flex flex-col p-5 sm:w-1/2 lg:w-1/4">
                     <div className="flex flex-col flex-none px-10 pt-10 pb-12 blue-delivers-square-img">
@@ -62,6 +63,9 @@ function PartnerSection(){
                         </a>
                     </div>
                 </div>
+                    {/* <div className="poligon">
+                     <img src="http://lorempixel.com/g/600/400/"/>
+                    </div> */}
                 </div>
             </div>
         </section>
