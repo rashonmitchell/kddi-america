@@ -6,6 +6,16 @@ function Table() {
             <h2 className="mb-12 text-kddiOrange text-4xl leading-9 font-normal uppercase sm:text-4xl sm:leading-10">
                 Committed to Your Success
             </h2>
+
+            <div className="flex flex-wrap -m-4">
+                <div className="flex flex-col w-full">
+                    <div className="w-full flex flex-col p-5 sm:w-1/2 lg:w-1/4">Big</div>
+                    <div className="flex flex-col  sm:w-1/2 lg:w-1/4">right</div>
+                    <div className="flex flex-col  sm:w-1/2 lg:w-1/4">left</div>
+                </div>
+                
+
+            </div>
             
             {/* <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 lg:gap-8 m-5">
                 <div className="p-4 col-span-1 lg:col-span-2">
@@ -22,7 +32,8 @@ function Table() {
                 </div>
             </div> */}
             
-            <table className="table-auto">
+            
+            {/* <table className="table-auto">
                 <thead>
                     <tr>
                         <th className="px-4 py-4"></th>
@@ -121,7 +132,7 @@ function Table() {
                         </td>
                     </tr>
                 </tbody>
-            </table>
+            </table> */}
         </div>
     )
 }

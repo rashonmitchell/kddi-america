@@ -8,7 +8,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-html {
+ html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -7863,9 +7863,9 @@ video {
   background-position: bottom;
 }
 
-.bg-center {
-  background-position: center;
-}
+// .bg-center {
+//   background-position: center;
+// }
 
 .bg-left {
   background-position: left;
@@ -10297,9 +10297,9 @@ video {
   display: inline;
 }
 
-.flex {
-  display: flex;
-}
+// .flex {
+//   display: flex;
+// }
 
 .inline-flex {
   display: inline-flex;
@@ -11696,7 +11696,7 @@ video {
 }
 
 .mt-10 {
-  margin-top: 2.5rem;
+  margin-top: 4.5rem;
 }
 
 .mr-10 {
@@ -19770,10 +19770,6 @@ video {
   animation: bounce 1s infinite;
 }
 
-.cta-background {
-  background-image: url('../assets/img/graphic@2x_template.png');
-}
-
 .partner-rectangle {
   border: 8px solid #AED6F2;
   background-color: #AED6F2;
@@ -19849,17 +19845,17 @@ video {
   margin-bottom: 1rem
 }
 
-.blue-partners-square-img {
-  background-image: url("../assets/img/cloud-services.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
+// .blue-partners-square-img {
+//   background-image: url("../assets/img/cloud-services.png");
+//   background-repeat: no-repeat;
+//   background-size: contain;
+// }
 
-.blue-delivers-square-img {
-  background-image: url("../assets/img/rectangle.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
+// .blue-delivers-square-img {
+//   background-image: url("../assets/img/rectangle.svg");
+//   background-size: cover;
+//   background-repeat: no-repeat;
+// }
 
 .footer {
   background-repeat: no-repeat;
@@ -20099,12 +20095,6 @@ video {
 .headerBody .navbar .nav-pills .nav-item .langSelect .btn-primary:active,
 .headerBody .navbar .nav-pills .nav-item .langSelect .btn-primary:focus {
   outline: none
-}
-
-.outline-something {
-  background: #000 !important;
-  color: #0f0 !important;
-  outline: solid #f00 1px !important;
 }
 
 @media (min-width: 640px) {
@@ -96760,5 +96750,35 @@ video {
 
   .xl\:animate-bounce {
     animation: bounce 1s infinite;
+  }
+}
+
+
+
+
+
+.icon-css-tony {
+  margin: auto;
+  width: 4.5em;
+  position: relative;
+  bottom: 35px;
+  display: flex;
+}
+.cards-margin {
+  height: 100%;
+  // background-image: url("../assets/img/rectangle.svg");
+  margin: 20px  12px 12px;
+}
+@media screen and (min-width: 768px) {
+  .flex {
+    display: flex;
+  }
+  .icon-css-tony {
+    width: 4.5em;
+    position: static;
+  }
+  .tony-css {
+    display: flex;
+    margin-left: 18px;
   }
 }

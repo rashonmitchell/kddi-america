@@ -3,7 +3,7 @@ import React from 'react';
 function DeliverSection() {
     return (
         <div className="m-auto bg-deliver max-w-full ">
-            <div className="p-8 m-auto container ">
+            <div className="p-8 m-auto container">
                 <h2 className="mb-10 text-kddiOrange text-2xl sm:text-2xl md:text-3xl lg:text-4xl leading-9 font-normal uppercase sm:leading-10">
                     Deliver High-Value, High-Margin Business Solutions with KDDI America
                 </h2>
@@ -11,24 +11,35 @@ function DeliverSection() {
                     KDDI America Partners gain access to world-class datacenters and public clouds, carrier-grade networks, and 
                     a global connectivity backbone for enabling your customers’ end-to-end digital transformation.
                 </p>
-                <div className="mt-10">
-                        <ul className="md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-                            <li>
-                                <div className="modItem"><div className="modItemIcon">
-                                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNTYuMTggMTQ5LjA1Ij48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2FlZDZmMjtzdHJva2Utd2lkdGg6NS40cHg7fS5jbHMtMSwuY2xzLTIsLmNscy0ze3N0cm9rZTojMmIzMTc1O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9LmNscy0yLC5jbHMtM3tmaWxsOm5vbmU7fS5jbHMtMntzdHJva2Utd2lkdGg6NS43MnB4O30uY2xzLTN7c3Ryb2tlLXdpZHRoOjQuOTVweDt9PC9zdHlsZT48L2RlZnM+PGcgaWQ9IkxheWVyXzIiIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PGcgaWQ9Il8xIiBkYXRhLW5hbWU9IjEiPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTE1My4zMiwxMTUuMDV2OC42MmExMC44MywxMC44MywwLDAsMS0xMC44LDEwLjhINDAuMzRhMTAuODMsMTAuODMsMCwwLDEtMTAuOC0xMC44di04LjYyIi8+PGxpbmUgY2xhc3M9ImNscy0yIiB4MT0iNjUuNjYiIHkxPSIxNDYuMTkiIHgyPSIxMTUuNjUiIHkyPSIxNDYuMTkiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0yOS41NCwxMTUuMTJ2LTY1YTEwLjgzLDEwLjgzLDAsMCwxLDEwLjgtMTAuOEgxNDIuNTJhMTAuODMsMTAuODMsMCwwLDEsMTAuOCwxMC44djY1WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTk2LjUsMjcuMjZBMjYuMTYsMjYuMTYsMCwwLDAsNDcuNTUsMTYuMTFjLS42NS0uMDUtMS4zMS0uMDgtMi0uMDhhMjYuNjcsMjYuNjcsMCwwLDAtMjYsMjAuNjdsLS41MywwYTE2LjM1LDE2LjM1LDAsMSwwLDAsMzIuNjloNzUuMkEyMS4xMSwyMS4xMSwwLDAsMCw5Ni41LDI3LjI2WiIvPjxwb2x5bGluZSBjbGFzcz0iY2xzLTMiIHBvaW50cz0iNDQuMDcgNTguNzggNTcuOTIgNDMuMTMgNzEuODEgNTguNzgiLz48cG9seWxpbmUgY2xhc3M9ImNscy0zIiBwb2ludHM9IjcxLjgxIDc5LjA0IDU3Ljk2IDk0LjY5IDQ0LjA3IDc5LjA0Ii8+PC9nPjwvZz48L3N2Zz4=" 
-                                    alt="Desktops as a Service (DaaS)" 
-                                    width={80} style={{marginTop: '5px'}} />
-                                </div>
-                                <h3>Desktops as a Service (DaaS){/* */}:</h3>
-                                <p>Virtualize desktops and empower your employees to work remotely with Windows Virtual Desktop on Azure or Amazon WorkSpaces. Keep your employees productive, improve business security and continuity, and maintain exceptional customer service.</p>
-                            </div>
-                            {/* <div className="flex bg-auto bg-center bg-no-repeat ..." style={{backgroundImage: 'url(../assets/img/rectangle.svg)'}}>
-                                <div className="flex-shrink-0">
-                                    <div className="flex items-center justify-center h-auto ">
-                                        <img src="../assets/img/Group-1.svg"></img>
-                                    </div>
-                                </div>
-                                <div className="ml-4">
+
+                
+                <div className="mt-6">
+                    <ul className="md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+
+                        <li className="cards-margin flex bg-auto bg-center bg-no-repeat ...">
+                            <section className="tony-css icon-css-tony icon-css-tony flex items-center justify-center h-auto">
+                                <img className="icons-delivery-section" src="../assets/img/Group-1.svg" alt="icon"></img>
+                            </section>
+                               
+                            <section className="">
+                                <h4 className="text-xl mb-6 text-cta">
+                                    Modernize customer interactions
+                                </h4>
+                                <p className="mt-2 text-lg">
+                                    Using omnichannel communications, built
+                                    with advanced messaging and RCS. 
+                                </p>
+                            </section>
+                        </li>
+
+                        <li className="cards-margin">
+                            <div className="flex bg-auto bg-center bg-no-repeat ..." style={{backgroundImage: 'url(../assets/img/rectangle.svg)'}}>
+                                <section className="flex-shrink-0 tony-css">
+                                    <section className="icon-css-tony flex items-center justify-center h-auto ">
+                                        <img className="icons-delivery-section" src="../assets/img/Group-1.svg" alt="icon"></img>
+                                    </section>
+                                </section>
+                                <section className="ml-4">
                                     <h4 className="text-2xl mb-6 text-cta">
                                         Modernize customer interactions
                                     </h4>
@@ -36,28 +47,18 @@ function DeliverSection() {
                                         Using omnichannel communications, built
                                         with advanced messaging and RCS. 
                                     </p>
-                                </div>
-                            </div> */}
-                            {/* <div className="flex items-center">
-                                <div className="flex-shrink-0 h-10 w-10">
-                                <img className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt="" />
-                                </div>
-                                <div className="ml-4">
-                                <div className="text-sm leading-5 font-medium text-gray-900">
-                                    Jane Cooper
-                                </div>
-                                <div className="text-sm leading-5 text-gray-500">
-                                    jane.cooper@example.com
-                                </div>
-                                </div>
-                            </div> */}
-                                {/* <div className="flex blue-delivers-square-img">
-                                    <div className="flex-shrink-0">
-                                        <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
-                                            <img src="../assets/img/Group-2.svg"></img>
-                                        </div>
-                                    </div>
-                                    <div className="ml-4">
+                                </section>
+                            </div>
+                            </li>
+
+                            <li className="cards-margin">
+                                <div className="flex bg-auto bg-center bg-no-repeat ..." style={{backgroundImage: 'url(../assets/img/rectangle.svg)'}}>
+                                    <section className="flex-shrink-0 tony-css">
+                                        <section className="icon-css-tony flex items-center justify-center h-auto ">
+                                            <img className="icons-delivery-section" src="../assets/img/Group-1.svg" alt="icon"></img>
+                                        </section>
+                                    </section>
+                                    <section className="ml-4">
                                         <h4 className="text-2xl mb-6 text-cta">
                                             Modernize customer interactions
                                         </h4>
@@ -65,16 +66,36 @@ function DeliverSection() {
                                             Using omnichannel communications, built
                                             with advanced messaging and RCS. 
                                         </p>
-                                    </div>
-                                </div> */}
+                                    </section>
+                                </div>
                             </li>
 
-                            <li className="mt-10 md:mt-0 blue-delivers-square-img">
-                                <div className="flex ">
-                                    <div className="">
-                                        {/* <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white"> */}
-                                        
-                                        <svg width="75px" height="75px" viewBox="0 0 148 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xlink">
+                            <li className="cards-margin">
+                            <div className="flex bg-auto bg-center bg-no-repeat ..." style={{backgroundImage: 'url(../assets/img/rectangle.svg)'}}>
+                                <section className="flex-shrink-0 tony-css">
+                                    <section className="icon-css-tony flex items-center justify-center h-auto ">
+                                        <img className="icons-delivery-section" src="../assets/img/Group-1.svg" alt="icon"></img>
+                                    </section>
+                                </section>
+                                <section className="ml-4">
+                                    <h4 className="text-2xl mb-6 text-cta">
+                                        Modernize customer interactions
+                                    </h4>
+                                    <p className="mt-2 text-lg">
+                                        Using omnichannel communications, built
+                                        with advanced messaging and RCS. 
+                                    </p>
+                                </section>
+                            </div>
+                            </li>
+                           
+
+                            {/* <li className="mt-10 md:mt-0">
+                                <div className="flex blue-delivers-square-img">
+                                    <section className="">
+                                        <section className="icon-css-tony flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                        <img src="../assets/img/Group-1.svg" alt="icon"></img> */}
+                                        {/* <svg width="75px" height="75px" viewBox="0 0 148 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xlink">
                                             <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                                                 <g id="Partner-Page" transform="translate(-1035.000000, -1751.000000)">
                                                     <g id="Build" transform="translate(992.000000, 1711.000000)">
@@ -93,10 +114,11 @@ function DeliverSection() {
                                                     </g>
                                                 </g>
                                             </g>
-                                        </svg>
-                                        {/* </div> */}
-                                    </div>
-                                    <div className="ml-4">
+                                        </svg>  */}
+                                        {/* </section>
+                                    </section> */}
+
+                                    {/* <section className="ml-4">
                                         <h4 className="text-2xl mb-6 text-cta">
                                             Build global, carrier-grade networks
                                         </h4>
@@ -104,50 +126,50 @@ function DeliverSection() {
                                             Including internet peering, 
                                             SD-WAN, global IP-VPN, transoceanic backbones.
                                         </p>
-                                    </div>
+                                    </section>
                                 </div>
-                            </li>
-
+                            </li> */}
+{/* 
                             <li className="mt-10 md:mt-0">
                                 <div className="flex blue-delivers-square-img">
-                                    <div className="flex-shrink-0">
-                                        <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                    <section className="flex-shrink-0">
+                                        <section className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                                             <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path></path>
                                             </svg>
-                                        </div>
-                                    </div>
-                                    <div className="ml-4">
+                                        </section>
+                                    </section>
+                                    <section className="ml-4">
                                         <h4 className="text-2xl mb-6 text-cta">
                                             Manage last-mile global connectivity
                                         </h4>
                                         <p className="mt-2 text-lg">
                                             Across Telehouse datacenters and cloud down to the device.
                                         </p>
-                                    </div>
+                                    </section>
                                 </div>
-                            </li>
+                            </li> */}
 
-                            <li className="mt-10 md:mt-0">
+                            {/* <li className="mt-10 md:mt-0">
                                 <div className="flex blue-delivers-square-img">
-                                    <div className="flex-shrink-0">
-                                        <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                    <section className="flex-shrink-0">
+                                        <section className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                                             
                                             <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path></path>
                                             </svg>
-                                        </div>
-                                    </div>
-                                    <div className="ml-4">
+                                        </section>
+                                    </section>
+                                    <section className="ml-4">
                                         <h4 className="text-2xl mb-6 text-cta">
                                             Innovate with IoT and RPA solutions
                                         </h4>
                                         <p className="mt-2 text-lg">
                                             Including connected cars, smart factories, and workflow automations. 
                                         </p>
-                                    </div>
+                                    </section>
                                 </div>
-                            </li>
+                            </li> */}
 
                         </ul>
                     </div>
@@ -156,28 +178,6 @@ function DeliverSection() {
                 
             </div>
         </div>
-
-                
-
-                
-
-                
-            
-        // <div className="py-12 bg-deliver">
-        //     <div className="container m-auto p-8 px-4">
-        //         <div className="lg:text-left">
-        //             <h3 className="mb-12 text-kddiOrange text-4xl leading-9 font-normal uppercase sm:text-4xl sm:leading-10">
-        //                 Deliver High-Value, High-Margin Business Solutions with KDDI America
-        //             </h3>
-        //             <p className="mt-8 text-lg leading-7 text-kddiGray lg:mx-auto">
-        //                 KDDI America Partners gain access to world-class datacenters and public clouds, carrier-grade networks, and 
-        //                 a global connectivity backbone for enabling your customers’ end-to-end digital transformation.
-        //             </p>
-        //         </div>
-
-                
-        //     </div>
-        // </div>
     )
 }
-export default DeliverSection;
+export default DeliverSection;// 
