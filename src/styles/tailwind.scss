@@ -74,7 +74,7 @@
 }
 .blue-delivers-square-img {
   background-image: url("../assets/img/rectangle.svg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .footer {
@@ -158,6 +158,10 @@
   right: -3.5em;
   width: 925px;
   display: inline-flex
+}
+.nav-pills {
+  color: #F2F2F2;
+  z-index: 999;
 }
 .headerBody .navbar .nav-pills .nav-item {
   transform: skew(0deg)
@@ -292,3 +296,87 @@
   outline: none
 }
 
+.outline-something {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+
+.icon-css-tony {
+  margin: auto;
+  width: 4.5em;
+  position: relative;
+  bottom: 35px;
+  display: flex;
+}
+.cards-margin {
+  
+}
+.hero-section:before{
+  content:'';
+  position:absolute;
+  left:0;
+  background: white ;
+  width:100%;
+  height:90px;
+  -moz-background-size:100% 45px;
+  -webkit-background-size:100% 45px;
+  background-size:100% 45px;
+  clip-path: polygon(49% 100%, 34% 0, 100% 0, 100% 70%, 100% 100%, 50% 100%, 0 100%, 0% 70%, 0% 35%, 0 100%);
+}
+.tony-z-index {
+  z-index: 333;
+}
+.col {
+  text-align: center;
+}
+.col > p {
+  text-align: left;
+  margin-bottom: 24
+}
+.tony-table-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tony-table-section  > h3 {
+  color:#E86A24;
+}
+.tony-table-section .col {
+  flex: 1 1 auto;
+}
+.tony-table-section .line-break {
+  flex-basis: 100%;
+  width: 0px; 
+  height: 0px; 
+  overflow: hidden;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color:#E86A24;
+  border-radius: 50%;
+  display: inline-block;
+}
+.tony-span-table {
+  display: flex;
+  justify-content: space-evenly;
+}
+.tony-table-section {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (min-width: 768px) {
+  .hero-section:before {
+  } 
+  .flex {
+    display: flex;
+  }
+  .icon-css-tony {
+    width: 4.5em;
+    position: static;
+  }
+  .tony-css {
+    display: flex;
+    margin-left: 18px;
+  }
+}

@@ -8,7 +8,7 @@ function DeliverSection() {
                     Deliver High-Value, High-Margin Business Solutions with KDDI America
                 </h2>
                 <p className="mt-8 text-lg leading-7 text-kddiGray lg:mx-auto">
-                    KDDI America Partners gain access to world-class datacenters and public clouds, carrier-grade networks, and 
+                    KDDI America Partners gain access to world-className datacenters and public clouds, carrier-grade networks, and 
                     a global connectivity backbone for enabling your customers’ end-to-end digital transformation.
                 </p>
 
@@ -16,78 +16,81 @@ function DeliverSection() {
                 <div className="mt-6">
                     <ul className="md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
 
-                        <li className="cards-margin flex bg-auto bg-center bg-no-repeat ...">
-                            <section className="tony-css icon-css-tony icon-css-tony flex items-center justify-center h-auto">
-                                <img className="icons-delivery-section" src="../assets/img/Group-1.svg" alt="icon"></img>
-                            </section>
-                               
-                            <section className="">
-                                <h4 className="text-xl mb-6 text-cta">
-                                    Modernize customer interactions
-                                </h4>
-                                <p className="mt-2 text-lg">
-                                    Using omnichannel communications, built
-                                    with advanced messaging and RCS. 
-                                </p>
-                            </section>
+                        <li className="bg-white my-10">
+                            <div className="tony-css">
+                                <section className="flex-shrink-0 tony-css ">
+                                    <section className="icon-css-tony items-center justify-center h-auto ">
+                                        <img className="icons-delivery-section" src="../assets/img/Group-1.png" alt="icon"></img>
+                                    </section>
+                                </section>
+
+                                <section className="m-6 sm:px-4 sm:py-4">
+                                    <h4 className="text-2xl mb-3  text-cta">
+                                        Manage last-mile global connectivity
+                                    </h4>
+                                    <p className="mt-2 tpx-4 py-4 text-lg">
+                                        Across Telehouse datacenters and cloud down to the device.
+                                    </p>
+                                </section>
+                            </div>
                         </li>
 
-                        <li className="cards-margin">
-                            <div className="flex bg-auto bg-center bg-no-repeat ..." style={{backgroundImage: 'url(../assets/img/rectangle.svg)'}}>
-                                <section className="flex-shrink-0 tony-css">
-                                    <section className="icon-css-tony flex items-center justify-center h-auto ">
-                                        <img className="icons-delivery-section" src="../assets/img/Group-1.svg" alt="icon"></img>
+                        <li className="bg-white my-10">
+                            <div className="tony-css">
+                                <section className="flex-shrink-0 tony-css ">
+                                    <section className="icon-css-tony items-center justify-center h-auto ">
+                                        <img className="icons-delivery-section" src="../assets/img/Group-2.png" alt="icon"></img>
                                     </section>
                                 </section>
-                                <section className="ml-4">
-                                    <h4 className="text-2xl mb-6 text-cta">
+                                <section className="m-6 sm:px-4 sm:py-4">
+                                    <h4 className="text-2xl mb-3  text-cta">
                                         Modernize customer interactions
                                     </h4>
-                                    <p className="mt-2 text-lg">
+                                    <p className="mt-2 tpx-4 py-4 text-lg">
                                         Using omnichannel communications, built
                                         with advanced messaging and RCS. 
                                     </p>
                                 </section>
                             </div>
-                            </li>
+                        </li>
 
-                            <li className="cards-margin">
-                                <div className="flex bg-auto bg-center bg-no-repeat ..." style={{backgroundImage: 'url(../assets/img/rectangle.svg)'}}>
-                                    <section className="flex-shrink-0 tony-css">
-                                        <section className="icon-css-tony flex items-center justify-center h-auto ">
-                                            <img className="icons-delivery-section" src="../assets/img/Group-1.svg" alt="icon"></img>
-                                        </section>
-                                    </section>
-                                    <section className="ml-4">
-                                        <h4 className="text-2xl mb-6 text-cta">
-                                            Modernize customer interactions
-                                        </h4>
-                                        <p className="mt-2 text-lg">
-                                            Using omnichannel communications, built
-                                            with advanced messaging and RCS. 
-                                        </p>
-                                    </section>
-                                </div>
-                            </li>
-
-                            <li className="cards-margin">
-                            <div className="flex bg-auto bg-center bg-no-repeat ..." style={{backgroundImage: 'url(../assets/img/rectangle.svg)'}}>
+                        <li className="bg-white my-10">
+                            <div className="tony-css">
                                 <section className="flex-shrink-0 tony-css">
-                                    <section className="icon-css-tony flex items-center justify-center h-auto ">
-                                        <img className="icons-delivery-section" src="../assets/img/Group-1.svg" alt="icon"></img>
+                                    <section className="icon-css-tony items-center justify-center h-auto ">
+                                        <img className="icons-delivery-section" src="../assets/img/Group-3.png" alt="icon"></img>
                                     </section>
                                 </section>
-                                <section className="ml-4">
-                                    <h4 className="text-2xl mb-6 text-cta">
+                                <section className="m-6 sm:px-4 sm:py-4">
+                                    <h4 className="text-2xl mb-3  text-cta">
                                         Modernize customer interactions
                                     </h4>
-                                    <p className="mt-2 text-lg">
+                                    <p className="mt-2 tpx-4 py-4 text-lg">
                                         Using omnichannel communications, built
                                         with advanced messaging and RCS. 
                                     </p>
                                 </section>
                             </div>
-                            </li>
+                        </li>
+
+                        <li className="bg-white my-10">
+                            <div className="tony-css">
+                                <section className="flex-shrink-0 tony-css">
+                                    <section className="icon-css-tony items-center justify-center h-auto ">
+                                        <img className="icons-delivery-section" src="../assets/img/Group-4.png" alt="icon"></img>
+                                    </section>
+                                </section>
+                                <section className="m-6 sm:px-4 sm:py-4">
+                                    <h4 className="text-2xl mb-3  text-cta">
+                                        Modernize customer interactions
+                                    </h4>
+                                    <p className="mt-2 tpx-4 py-4 text-lg">
+                                        Using omnichannel communications, built
+                                        with advanced messaging and RCS. 
+                                    </p>
+                                </section>
+                            </div>
+                        </li>
                            
 
                             {/* <li className="mt-10 md:mt-0">
