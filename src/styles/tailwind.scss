@@ -2,6 +2,9 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+.blue-tri {
+  background-image: url('../assets/img/rectangle.svg');
+}
 .partner-rectangle {
   border: 8px solid #AED6F2;
   background-color: #AED6F2;
