@@ -4,48 +4,28 @@ function CtaPartner() {
     return (
         <div className="container max-w-full ">
             <div className="mx-auto flex flex-wrap">
-                <div className="lg:w-2/3 sm:w-1/2 flex flex-wrap h-auto">
-                    <img src="../assets/img/graphic@2x.jpg" className="left-0 "></img>
+                <div className="lg:w-2/3 md:w-1/2 sm:w-1/2 flex flex-wrap h-auto flex-shrink sm:flex-shrink-0 md:flex-shrink lg:flex-shrink-0">
+                    <svg width="auto" height="auto" viewBox="0 0 1291 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                        <g id="Page-1" stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
+                            <g id="Partner-Page" transform="translate(0.000000, -3665.000000)">
+                                <g id="graphic" transform="translate(0.000000, 3665.000000)">
+                                    <g id="Group-10">
+                                        <polygon id="Rectangle-Copy-9" fill="#2B3175" points="0 0 1291 0 1197.86231 162 0 162" />
+                                        <polygon id="Fill-1-Copy-3" fill="#E86A24" points="1099 201 1228 72 1228 201" />
+                                    </g>
+                                    <text id="Partner-Resources" fontFamily="Arial-BoldMT, Arial" fontSize={38} fontWeight="bold" line-spacing={45} fill="#FFFFFF">
+                                        <tspan x={130} y={85}>Partner Resources</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
                 </div>
-                <div className="lg:w-1/3 sm:w-1/2 flex flex-wrap h-auto">
+                <div className="lg:w-1/3 md:w-1/2 sm:w-1/2 flex flex-wrap h-auto">
                     <img src="../assets/img/illustration.jpg" className="right-0  "/>
                 </div>
             </div>
         </div>
-    /* <div className="container ">
-<div className="mx-auto sm:px-6 lg:px-8 flex flex-wrap">
-    <div className="w-full lg:w-3/4 md:w-1/2 flex flex-wrap "> 
-        <h2 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl text-center sm:text-left text-white">
-            Join the KDDI America Partner Program
-        </h2>
-    </div>
-    
-    <div style={{textAlign: 'right'}}><img src="../assets/img/illustration.jpg"/></div>
-    <div className="lg:w-1/4 sm:w-1/2 ">
-        <img src="../assets/img/illustration.jpg" className="max-w-none right-0 "></img>
-        <div className="orange items-center ">
-            <a href="" className="uppercase" type="button">
-                Enroll Today
-            </a>
-        </div>
-    </div>
-</div>
-</div> */
-
-// <div className="container m-auto bg-cta max-w-full">
-//     <div className="max-w-screen-xl mx-auto py-12 px-6 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
-//         <h2 className="text-4xl sm:text-2xl lg:text-4xl leading-9 font-bold text-white sm:leading-10 text-center sm:text-center">
-//             Join the KDDI America Partner Program
-//         </h2>
-//         <div className="mt-8 flex flex-wrap lg:mt-0 sm:items-center px-10 sm:px-10">
-//             <div className="orange sm:justify-center md:justify-center lg:justify-center sm:items-center md:items-center">
-//                 <button  className="uppercase" type="button">
-//                     Enroll Today
-//                 </button>
-//             </div>
-//         </div>
-//     </div>
-// </div>
     );
 }
 export default CtaPartner;
