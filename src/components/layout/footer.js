@@ -1,21 +1,26 @@
 import React, { useState } from "react";
+import Modal from '../ui/modal';
 
 export default function Footer() {
-    const [showModal, setShowModal] = React.useState(false);
+
     return (
         <footer className="footer-1 bg-black">
             <div className="mx-auto p-6">
                 <div className="max-w-screen-xl mx-auto lg:flex lg:items-center lg:justify-between flex flex-wrap">
                     <div className="w-full lg:w-3/4 sm:w-1/2 flex flex-wrap mb-4 sm:mb-0"> 
                         <h2 className="text-center sm:text-left md:texr-left text-white font-boldss">
-                            Copyright © KDDI Corporation. All Rights Reserved. 
-                            <span className="font-bold"> Contact Us</span>
+                            Copyright © KDDI Corporation. All Rights Reserved.  
+                            <span className="font-bold">
+
+                                <Modal content={" Contact Us"} className="focus:outline-none"/>
+                            
+                            </span>
                         </h2>
                     </div>
                     
                     <div className="w-full lg:w-1/4 sm:w-1/2 text-center sm:text-right ">
-                        <div className="px-6 my-1 w-3/4 shadow flex ml-auto">
-                            <a href="https://instagram.com/" target="_tab" className="mx-2  pt-2">
+                        <div className="px-6 w-3/4 shadow flex ml-auto">
+                            <a href="https://instagram.com/" target="_tab" className="mx-2">
                                 <svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                     <g id="Page-1" stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
                                         <g id="Partner-Landing-Page_mobile" transform="translate(-143.000000, -7925.000000)" fill="#FFFFFF" fillRule="nonzero">
@@ -32,7 +37,7 @@ export default function Footer() {
                             </a>
 
                             <a href="https://facebook.com/" target="_tab" className=" mx-2 ">
-                                <svg width="22px" height="44px" viewBox="0 0 22 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                                <svg width="22px" height="36px" viewBox="0 0 22 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                     <g id="Page-1" stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
                                         <g id="Partner-Landing-Page_mobile" transform="translate(-211.000000, -7919.000000)" fill="#FFFFFF" fillRule="nonzero">
                                             <g id="Group-12" transform="translate(143.000000, 7919.000000)">

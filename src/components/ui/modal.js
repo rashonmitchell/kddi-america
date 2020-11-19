@@ -8,7 +8,7 @@ export default function Modal(props) {
   }
   return (
     <>
-        <button className="orange text-center font-bold focus:outline-none" type="button" onClick={() => setShowModal(true)}>
+        <button className="text-center font-bold focus:outline-none" type="button" onClick={() => setShowModal(true)}>
             {props.content}
         </button>
         {showModal ? (

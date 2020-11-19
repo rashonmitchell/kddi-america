@@ -27,7 +27,7 @@ function PartnerSection(){
                                 <text x="60" y="130" fontWeight="500" fill="#2B3175" stroke="none" fontSize="2.8em">
                                     Overview
                                 </text>
-                                <a target="_tab" href="https://www.kddiacloud.com/pdf/Accelerate-Your-Hybrid-and-Multi-Cloud-Strategy-with-KDDI-America-Telehouse.pdf">
+                                <a target="_tab" href="https://www.kddiamessaging.com/pdf/KDDI-America-Partner-Program-Overview.pdf">
                                     <text x="60" y="250" fontFamily="Arial" fontWeight="normal" fill="#E86A24" stroke="none" fontSize="3.3em">
                                         Download &#8594;
                                     </text> 
