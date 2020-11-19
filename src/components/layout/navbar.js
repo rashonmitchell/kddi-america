@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 export default function Navbar({ fixed }) {
   const [isExpanded, toggleExpansion] = useState(false)
   return (
@@ -21,10 +22,10 @@ export default function Navbar({ fixed }) {
             </div>
           </div>
           {/* Mobile Menu open: "block", Menu closed: "hidden" */}
-          <div id="navbar-nav" className={`${ isExpanded ? `block` : `hidden` } tony-z-index ml-auto navbar-nav nav-pills -mx-4 sm:justify-end md:flex md:items-center w-full block flex-grow lg:flex lg:items-center justify-end lg:w-auto`}>
-            <a href="#" className="block mx-4 mt-2 md:mt-0 text-sm text-cta uppercase hover:text-orange-600">call  1-888-888-8888</a>
+          <div id="navbar-nav" className={`${ isExpanded ? `block` : `hidden` } tony-z-index mobile-menu ml-auto navbar-nav nav-pills -mx-4 sm:justify-end md:flex md:items-center w-full block flex-grow lg:flex lg:items-center justify-end lg:w-auto`}>
+            <a href="#" className="block p-2 mx-4 mt-2 md:mt-0 text-sm text-cta uppercase hover:text-orange-600">call  1-888-888-8888</a>
             <div className="orange">
-              <button  className="uppercase" type="button">
+              <button  className="uppercase focus:outline-none " type="button">
                 become a partner
               </button>
             </div>

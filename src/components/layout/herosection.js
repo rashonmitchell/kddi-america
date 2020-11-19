@@ -6,10 +6,10 @@ function HeroSection() {
     <header className="headerBody hero-section hero-img">
         <Navbar/>
 
-        <div className="container m-auto p-8 text-grey-darkest max-w-full ">
-            <div className="hero ml-0 sm:ml-16">
+        <div className="container mx-auto p-8 text-grey-darkest">
+            <div className="hero ml-0 ">
                 <div className="hero-caption ">
-                    <h1 className="mb-6 text-white text-3xl sm:text-3xl md:text-4xl lg:text-6xl ">
+                    <h1 className="mb-6 mt-5 leading-tight text-white text-3xl sm:text-4xl md:text-4xl lg:text-6xl ">
                         KDDI America 
                         <br />
                         Partner Program

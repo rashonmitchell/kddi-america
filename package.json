@@ -14,12 +14,17 @@
     "postcss": "^8.1.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-modal-video": "^1.2.6",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
     "react-table": "^7.6.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "sync": "browser-sync start --server --files \"**/*\"",
+    "dev": "postcss src/styles/tailwind.scss --output src/styles/tailwind.scss",
+    "watch:dev": "nodemon -x npm run dev -w tailwind.config.js -w src/styles/tailwind.scss",
+    "watch": "run-p watch:dev sync",
     "build": "react-scripts build",
     "build:tailwind": "postcss src/styles/tailwind.scss -o src/styles/index.scss",
     "watch:tailwind": "chokidar 'src/styles/tailwind.scss' 'src/styles/tailwind.scss' --ignore src/styles/tailwind.scss -c 'npm run build:tailwind'",

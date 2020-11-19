@@ -13,7 +13,7 @@ function CtaPartner() {
                                         <polygon id="Rectangle-Copy-9" fill="#2B3175" points="0 0 1291 0 1197.86231 162 0 162" />
                                         <polygon id="Fill-1-Copy-3" fill="#E86A24" points="1099 201 1228 72 1228 201" />
                                     </g>
-                                    <text id="Partner-Resources" fontFamily="Arial-BoldMT, Arial" fontSize={38} fontWeight="bold" line-spacing={45} fill="#FFFFFF">
+                                    <text id="Partner-Resources" fontFamily="Arial-BoldMT, Arial" fontSize={38} fontWeight="bold" linespacing={45} fill="#FFFFFF">
                                         <tspan x={130} y={85}>Partner Resources</tspan>
                                     </text>
                                 </g>

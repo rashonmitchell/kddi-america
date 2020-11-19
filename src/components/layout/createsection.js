@@ -1,4 +1,5 @@
 import React from 'react';
+import Modal from '../ui/modal';
 
 function CreateSection() {
     return (
@@ -13,21 +14,23 @@ function CreateSection() {
                     </p>
                 </div>
                 <div className="w-full md:w-1/2 px-3 mb-6">
-                    <div className="p-8 orange w-full">
+                    <div className="p-8 w-full">
                         <div className="text-center">
-                            <a href="" className="uppercase" type="button">
+                        <Modal content={"Become a KDDI America partner"} className="uppercase text-center font-bold focus:outline-none"/>
+                            {/* <a href="" className="uppercase" type="button">
                                 Become a KDDI America partner
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>
 
                 <div className="w-full md:w-1/2 px-3 mb-6">
-                    <div className="p-8 orange w-full">
+                    <div className="p-8 w-full">
                         <div className="text-center">
-                            <a href="" className="uppercase" type="button">
+                        <Modal content={"Contact Partner"} className="uppercase text-center font-bold focus:outline-none"/>
+                            {/* <a href="" className="uppercase" type="button">
                                 contact partner 
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>

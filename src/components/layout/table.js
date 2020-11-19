@@ -10,7 +10,7 @@ function Table() {
             <div className="flex flex-wrap -m-4">
             
                 <div className="sm:block md:block lg:hidden xl:hidden">
-                    <section className='tony-table-section bg-kddiSkyBlue'>
+                    <section className='tony-table-section bg-kddiSkyBlue pb-4'>
                         <h3 className="text-2xl px-4 pt-4 text-kddiOrange">Simplicity</h3>
                         <div className='col px-4 py-4'>
                             <p className='text-lg leading-7 text-kddiGray'>
@@ -31,7 +31,7 @@ function Table() {
                         <div className='line-break'></div>
                         
                     </section>
-                    <section className='tony-table-section'>
+                    <section className='tony-table-section pb-4'>
                         <h3 className="text-2xl px-4 pt-4 text-kddiOrange">Low Risk</h3>
                         <div className='col px-4 py-4'>
                             <p className='text-lg leading-7 text-kddiGray'>
@@ -51,7 +51,7 @@ function Table() {
                         </div>
                         <div className='line-break'></div>
                     </section>
-                    <section className='tony-table-section bg-kddiSkyBlue'>
+                    <section className='tony-table-section bg-kddiSkyBlue pb-4'>
                         <h3 className="text-2xl px-4 pt-4 text-kddiOrange">Cobranding</h3>
                         <div className='col px-4 py-4'>
                             <p className='text-lg leading-7 text-kddiGray'>
@@ -71,7 +71,7 @@ function Table() {
                         </div>
                         <div className='line-break'></div>
                     </section>
-                    <section className='tony-table-section'>
+                    <section className='tony-table-section pb-4'>
                         <h3 className="text-2xl px-4 pt-4 text-kddiOrange">Marketing and Sales</h3>
                         <div className='col px-4 py-4'>
                             <p className='text-lg leading-7 text-kddiGray'>
@@ -91,7 +91,7 @@ function Table() {
                         </div>
                         <div className='line-break'></div>
                     </section>
-                    <section className='tony-table-section bg-kddiSkyBlue'>
+                    <section className='tony-table-section bg-kddiSkyBlue pb-4'>
                         <h3 className="text-2xl px-4 pt-4 text-kddiOrange">Business Planning</h3>
                         <div className='col px-4 py-4'>
                             <p className='text-lg leading-7 text-kddiGray'>
@@ -111,7 +111,7 @@ function Table() {
                         </div>
                         <div className='line-break'></div>
                     </section>
-                    <section className='tony-table-section'>
+                    <section className='tony-table-section pb-4'>
                         <h3 className="text-2xl px-4 pt-4 text-kddiOrange">Pre Sales Support</h3>
                         <div className='col px-4 py-4'>
                             <p className='text-lg leading-7 text-kddiGray'>
