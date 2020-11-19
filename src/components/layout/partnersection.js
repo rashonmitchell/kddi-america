@@ -10,7 +10,7 @@ function PartnerSection(){
     }
     
     return(
-        <section className="pt-20 pb-8">
+        <section className="pt-10 pb-8">
             <div className="max-w-screen-xl container mx-auto px-4">
                 <div className="-mx-5 flex flex-wrap">
                 
