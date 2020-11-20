@@ -18,7 +18,7 @@ function DeliverSection() {
                     Deliver High-Value, High-Margin Business Solutions with KDDI America
                 </h2>
                 <p className="mt-8 pb-8 text-lg leading-7 text-kddiGray lg:mx-auto">
-                    KDDI America Partners gain access to world-className datacenters and public clouds, carrier-grade networks, and 
+                    KDDI America partners gain access to world-class datacenters and public clouds, carrier-grade networks, and 
                     a global connectivity backbone for enabling your customers’ end-to-end digital transformation.
                 </p>
                 

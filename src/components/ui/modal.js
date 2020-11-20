@@ -39,7 +39,7 @@ export default function Modal(props) {
                   </div>
                   <form className="px-4 pt-4 pb-8 mb-4">
                     <div className="mb-4">
-                        <input className="form-modal w-full py-2 px-3 text-black-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Name:" />
+                        <input className="form-modal w-full py-2 px-3 text-black-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Name:" />
                     </div>
                     <div className="mb-4">
                         <input className="form-modal w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="company" type="text" placeholder="Company:" />

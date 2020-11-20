@@ -3,7 +3,7 @@ import 'react-table';
 function Table() {
     return (
         <div className="container m-auto p-8 mt-6 ">
-            <h2 className="mb-2 pb-4 sm:mb-0 sm:pb-0 text-kddiOrange text-2xl sm:text-2xl md:text-3xl lg:text-4xl leading-9 font-normal uppercase sm:leading-10">
+            <h2 className="sm:block md:block lg:hidden xl:hidde mb-2 pb-4 sm:mb-0 sm:pb-0 text-kddiOrange text-2xl sm:text-2xl md:text-3xl lg:text-4xl leading-9 font-normal uppercase sm:leading-10">
                 Committed to Your Success
             </h2>
 
@@ -136,7 +136,7 @@ function Table() {
                     <table className="table-auto">
                         <thead>
                             <tr>
-                                <th className=""></th>
+                                <th className="text-left py-2 text-2xl text-kddiOrange sm:text-2xl md:text-3xl lg:text-4xl leading-9 font-normal uppercase sm:leading-10">Committed to Your Success</th>
                                 <th className="px-3 py-2 text-2xl mb-4 text-cta text-center">
                                     KDDI America Advisor 
                                 </th>
