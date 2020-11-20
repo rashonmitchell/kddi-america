@@ -9,9 +9,9 @@ export default function Navbar({ fixed }) {
         <div className="md:flex md:items-center md:justify-between">
           <div className="flex justify-between items-center">
             <div className="text-xl font-semibold text-gray-700">
-            <a className="text-3xl font-semibold leading-none" href="#">
-              <img className="h-10" src="../assets/img/Logo@2x.png" alt="KDDI America " width="auto" />
-            </a>
+              <a className="flex leading-none" href="#">
+                <img className="h-10" src="../assets/img/Logo@2x.png" alt="KDDI America " width="auto" />
+              </a>
             </div>
             {/* Mobile menu button */}
             <div className="block md:hidden nav-pills">
@@ -24,7 +24,7 @@ export default function Navbar({ fixed }) {
           </div>
           {/* Mobile Menu open: "block", Menu closed: "hidden" */}
           <div id="navbar-nav" className={`${ isExpanded ? `block mobile-menu` : `hidden` } tony-z-index  ml-auto navbar-nav nav-pills -mx-4 sm:justify-end md:flex md:items-center w-full block flex-grow lg:flex lg:items-center justify-end lg:w-auto`}>
-            <a href="#" className="block p-2 mx-4 mt-2 md:mt-0 text-sm text-cta uppercase hover:text-orange-600">call  1-888-888-8888</a>
+            {/* <a href="#" className="block p-2 mx-4 mt-2 md:mt-0 text-sm text-cta uppercase hover:text-orange-600">call  1-888-888-8888</a> */}
             <div className="text-center orange">
                 <Modal content={"BECOME A PARTNER"} className="orange uppercase text-center font-bold focus:outline-none"/>
             </div>

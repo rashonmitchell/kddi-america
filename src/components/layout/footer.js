@@ -8,7 +8,8 @@ export default function Footer() {
                 <div className="max-w-screen-xl mx-auto lg:flex lg:items-center lg:justify-between flex flex-wrap">
                     <div className="w-full lg:w-3/4 sm:w-1/2 flex flex-wrap mb-4 sm:mb-0"> 
                         <h2 className="text-center sm:text-left md:texr-left text-white font-boldss">
-                            Copyright © KDDI Corporation. All Rights Reserved. <span className="font-bold"> <Modal content={" Contact Us"} className="focus:outline-none"/>
+                            Copyright © KDDI Corporation. All Rights Reserved. <span className="font-bold"> 
+                                <Modal content={" Contact Us"} className="focus:outline-none"/>
                             </span>
                         </h2>
                     </div>

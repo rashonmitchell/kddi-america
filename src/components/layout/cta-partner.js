@@ -15,8 +15,8 @@ function CtaPartner() {
                                             <polygon id="Rectangle-Copy-9" fill="#2B3175" points="0 0 1291 0 1197.86231 162 0 162" />
                                             <polygon id="Fill-1-Copy-3" fill="#E86A24" points="1099 201 1228 72 1228 201" />
                                         </g>
-                                        <text id="Partner-Resources" fontFamily="Arial-BoldMT, Arial" fontSize={38} fontWeight="bold" linespacing={45} fill="#FFFFFF">
-                                            <tspan x={130} y={85}>Partner Resources</tspan>
+                                        <text id="Partner-Resources" fontFamily="Arial-BoldMT, Arial" fontSize={50} fontWeight="" linespacing={45} fill="#FFFFFF">
+                                            <tspan x={140} y={95}>Partner Resources</tspan>
                                         </text>
                                     </g>
                                 </g>
@@ -41,15 +41,15 @@ function CtaPartner() {
                                             <polygon id="Rectangle-Copy-9" fill="#2B3175" points="0 0 1291 0 1197.86231 162 0 162" />
                                             <polygon id="Fill-1-Copy-3" fill="#E86A24" points="1099 201 1228 72 1228 201" />
                                         </g>
-                                        <text id="Partner-Resources" fontFamily="Arial-BoldMT, Arial" fontSize={58} fontWeight="bold" linespacing={45} fill="#FFFFFF">
-                                            <tspan x={130} y={85}>Partner Resources</tspan>
+                                        <text id="Partner-Resources" fontFamily="Arial-BoldMT, Arial" fontSize={75} fontWeight="bold" linespacing={45} fill="#FFFFFF">
+                                            <tspan x={160} y={105}>Partner Resources</tspan>
                                         </text>
                                     </g>
                                 </g>
                             </g>
                         </svg>
                     </div>
-                    <div className="sm:w-full lg:w-1/3  md:w-4/6 ml-auto flex flex-wrap h-auto flex-end ">
+                    <div className="w-full sm:w-4/6 lg:w-1/3  md:w-4/6 ml-auto flex flex-wrap h-auto flex-end ">
                         <img src="../assets/img/illustration.jpg" className="left-8  "/>
                     </div>
                 </div>
