@@ -2,13 +2,12 @@ import React from 'react';
 import 'react-table';
 function Table() {
     return (
-        <div className="container m-auto p-8 mt-12 ">
-            <h2 className="mb-12 text-kddiOrange text-4xl leading-9 font-normal uppercase sm:text-4xl sm:leading-10">
+        <div className="container m-auto p-8 mt-6 ">
+            <h2 className="mb-2 pb-4 sm:mb-0 sm:pb-0 text-kddiOrange text-2xl sm:text-2xl md:text-3xl lg:text-4xl leading-9 font-normal uppercase sm:leading-10">
                 Committed to Your Success
             </h2>
 
-            <div className="flex flex-wrap -m-4">
-            
+            <div className="flex flex-wrap -mx-4">
                 <div className="sm:block md:block lg:hidden xl:hidden">
                     <section className='tony-table-section bg-kddiSkyBlue pb-4'>
                         <h3 className="text-2xl px-4 pt-4 text-kddiOrange">Simplicity</h3>
@@ -137,11 +136,11 @@ function Table() {
                     <table className="table-auto">
                         <thead>
                             <tr>
-                                <th className="px-4 py-4"></th>
-                                <th className="px-4 py-4 text-2xl mb-4 text-cta text-center">
+                                <th className=""></th>
+                                <th className="px-3 py-2 text-2xl mb-4 text-cta text-center">
                                     KDDI America Advisor 
                                 </th>
-                                <th className="px-4 py-4 text-2xl mb-4 text-cta text-center">
+                                <th className="px-3 py-2 text-2xl mb-4 text-cta text-center">
                                     KDDI America Solution Strategist 
                                 </th>
                             </tr>
@@ -235,8 +234,8 @@ function Table() {
                         </tbody>
                     </table>
                 </div>
-		</div>
-    </div>
+		    </div>
+        </div>
     )
 }
 export default Table;

@@ -24,16 +24,16 @@ function CreateSection() {
                     </div>
                 </div>
 
-                <div className="w-full md:w-1/2 px-3 mb-6">
+                {/* <div className="w-full md:w-1/2 px-3 mb-6">
                     <div className="w-full">
                         <div className="text-center orange w-full">
                         <Modal content={"Contact Partner"} className="uppercase text-center font-bold focus:outline-none"/>
-                            {/* <a href="" className="uppercase" type="button">
+                            <a href="" className="uppercase" type="button">
                                 contact partner 
-                            </a> */}
+                            </a>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

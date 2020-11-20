@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video'
-import Modal from '../ui/modal';
+
+import VideoModalCom from '../ui/video-modal/video-2'
 
 function PartnerSection(){
     const [isOpen, setOpen] = useState(false);
+    const [isOpenTwo, setOpenTwo] = useState(false);
 
-    function toggleVideoModal() {
-        setOpen(!isOpen);
-    }
+    function toggleVideoModal() {setOpen(!isOpen);}
+    function toggleVideoModal2() {setOpenTwo(!isOpenTwo);}
     
     return(
         <section className="pt-10 pb-8">
@@ -60,7 +61,7 @@ function PartnerSection(){
                             </g>
                         </svg>
                     </div>
-                    <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="5Jv9XXSEFdk" onClose={() => setOpen(false)} />
+                    <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="5Jv9XXSEFdk" onClose={() => isOpen(false)} />
                     <div className="w-full flex flex-col p-5 sm:w-1/2 lg:w-1/4">
                         <svg width="100%" height="100%" viewBox="0 0 599 299" version="1.1" xmlnshtml="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                             <g id="Page-1" stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
@@ -89,7 +90,9 @@ function PartnerSection(){
                             </g>
                         </svg>
                     </div>
+                    {/* <VideoModalCom /> */}
 
+                    <ModalVideo channel='youtube' autoplay isOpenTwo={isOpenTwo} custom="" videoId="J-81QHjaTNo" onClose={() => isOpenTwo(false)} />
                     <div className="w-full flex flex-col p-5 sm:w-1/2 lg:w-1/4">
                         <svg width="100%" height="100%" viewBox="0 0 599 299" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                             <g id="Page-1" stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
@@ -109,7 +112,7 @@ function PartnerSection(){
                                             <button 
                                                 type="button" 
                                                 style={{  color:"#E86A24", fontFamily:"Arial", fontWeight:"normal" }} 
-                                                onClick={toggleVideoModal}
+                                                onClick={toggleVideoModal2}
                                             >
                                                 Watch &#8594;
                                             </button>

@@ -40,7 +40,7 @@ function RelationshipSection() {
                             <p className="text-lg">
                                 Achieve the highest levels of network and
                                 datacenter infrastructure uptime, resiliency,
-                                throughput, and last-mile connectivity.
+                                throughput, and last mile connectivity.
                             </p>
                         </div>
                     </div>

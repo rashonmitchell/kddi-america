@@ -8,8 +8,8 @@ function HeroSection() {
 
         <div className="container mx-auto p-8 text-grey-darkest">
             <div className="hero ml-0 ">
-                <div className="hero-caption ">
-                    <h1 className="mb-6 mt-5 leading-tight text-white text-3xl sm:text-4xl md:text-4xl lg:text-6xl ">
+                <div className="hero-caption md:w-2/4 lg:w-2/4">
+                    <h1 className="mb-6 mt-5 hero-line text-white text-3xl sm:text-4xl md:text-4xl lg:text-6xl ">
                         KDDI America 
                         <br />
                         Partner Program
