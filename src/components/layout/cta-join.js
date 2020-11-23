@@ -13,7 +13,7 @@ function CtaJoin() {
                     </div>
                     <div className="w-full lg:w-1/4 sm:w-1/2 text-center sm:text-right">
                         <div className="text-center orange">
-                            <Modal content={"Join Today"} className="orange text-center font-bold focus:outline-none"/>
+                            <Modal content={"ENROLL TODAY"} className="uppercase orange text-center font-bold focus:outline-none"/>
                         </div>
                     </div>
                 </div>

@@ -3,7 +3,7 @@ import React from 'react';
 function GroupOneMobile() {
     return (                  
         <div className="w-full md:w-1/2 lg:w-1/2">
-            <svg width="312px" height="396px" viewBox="0 0 312 396" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+            <svg className="m-auto" width="312px" height="396px" viewBox="0 0 312 396" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                 <defs>
                     <polygon id="path-1" points="5.41904762e-05 0.0867860476 60.8634914 0.0867860476 60.8634914 60.1514286 5.41904762e-05 60.1514286" />
                 </defs>

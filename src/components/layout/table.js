@@ -93,7 +93,7 @@ function Table() {
                     <section className='tony-table-section bg-kddiSkyBlue pb-4'>
                         <h3 className="text-2xl px-4 pt-4 text-kddiOrange">Business Planning</h3>
                         <div className='col px-4 py-4'>
-                            <p className='text-lg leading-7 text-kddiGray'>
+                            <p className='text-lg pb-4 leading-7 text-kddiGray'>
                                 Work directly with your KDDI partner manager to develop your
                                 business strategy and plan opportunities.
                             </p>
