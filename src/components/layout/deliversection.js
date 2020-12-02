@@ -24,12 +24,10 @@ function DeliverSection() {
                 
 
                 <div className="hidden flex-wrap -mx-4 overflow-hidden sm:hidden md:flex lg:flex xl:flex">
-                    {/* <div className="hidden md:hidden lg:block xl:block"> */}
-                        <GroupOne />
-                        <GroupTwo />
-                        <GroupThree />
-                        <GroupFour />
-                    {/* </div> */}
+                    <GroupOne />
+                    <GroupTwo />
+                    <GroupThree />
+                    <GroupFour />
                 </div>
 
                 <div className="block md:hidden lg:hidden xl:hidden">
@@ -38,8 +36,6 @@ function DeliverSection() {
                     <GroupThreeMobile />
                     <GroupFourMobile />
                 </div>
-
-                
             </div>
         </div>
     )

@@ -18,9 +18,7 @@ export default function Modal(props) {
               <div className="absolute inset-0 bg-black opacity-75"></div>
             </div>
             <div className="relative w-auto my-6 mx-auto max-w-3xl">
-              {/*content*/}
               <div className="border-1 shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-                {/*header*/}
                 <div className="relative p-4 flex-auto">
                   <div className="flex justify-center ">
                     <div className="w-1/4"></div>

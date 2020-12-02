@@ -28,11 +28,6 @@ export default function Navbar({ fixed }) {
             <div className="text-center orange">
                 <Modal content={"BECOME A PARTNER"} className="orange uppercase text-center font-bold focus:outline-none"/>
             </div>
-            {/* <div className="orange">
-              <button  className="uppercase focus:outline-none " type="button">
-                become a partner
-              </button>
-            </div> */}
           </div>
         </div>
       </div>

@@ -17,23 +17,9 @@ function CreateSection() {
                     <div className="w-full">
                         <div className="text-center orange w-full">
                         <Modal content={"BECOME A KDDI AMERICA PARTNER"} className="uppercase text-center font-bold focus:outline-none"/>
-                            {/* <a href="" className="uppercase" type="button">
-                                Become a KDDI America partner
-                            </a> */}
                         </div>
                     </div>
                 </div>
-
-                {/* <div className="w-full md:w-1/2 px-3 mb-6">
-                    <div className="w-full">
-                        <div className="text-center orange w-full">
-                        <Modal content={"Contact Partner"} className="uppercase text-center font-bold focus:outline-none"/>
-                            <a href="" className="uppercase" type="button">
-                                contact partner 
-                            </a>
-                        </div>
-                    </div>
-                </div> */}
             </div>
         </div>
     )

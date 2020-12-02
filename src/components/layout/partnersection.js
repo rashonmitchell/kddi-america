@@ -82,7 +82,6 @@ function PartnerSection(){
                             </g>
                         </svg>
                     </div>
-                    {/* <VideoModalCom /> */}
                     <ModalVideo channel='youtube' autoplay isOpen={isOpenTwo} custom="" videoId="J-81QHjaTNo" onClose={toggleVideoModal2} />
                     <div className="w-full flex flex-col p-5 sm:w-1/2 lg:w-1/4">
                         <svg width="100%" height="100%" viewBox="0 0 599 299" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">

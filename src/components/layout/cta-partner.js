@@ -91,14 +91,12 @@ function CtaPartner() {
                             </g>
                             </g>
                         </svg>
-                        {/* <img src="../assets/img/illustration.jpg" className="right-0  "/> */}
                     </div>
                 </div>
             </div>
 
             <div className="sm:block md:block lg:hidden xl:hidden ">
                 <div className="mx-auto  flex-wrap ">
-                    {/* removed sm:1/2 width */}
                     <div className="lg:w-2/3 flex flex-wrap h-auto flex-shrink sm:flex-shrink-0 md:flex-shrink lg:flex-shrink-0">
                         <svg width="100%" height="100%" viewBox="0 0 1291 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                             <g id="Page-1" stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
@@ -184,7 +182,6 @@ function CtaPartner() {
                             </g>
                             </g>
                         </svg>
-                        {/* <img src="../assets/img/illustration.jpg" className="left-8  "/> */}
                     </div>
                 </div>
             </div>
